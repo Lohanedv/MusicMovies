@@ -3,7 +3,7 @@ function Form() {
 
     const movie = {
         id: 1, 
-        image: "https://www.themoviedb.org/t/p/w533_and_h300_bestv2/riS7PNEVDjnCCc7V79B1kD2Qvdu.jpg",
+        image: "https://www.themoviedb.org/t/p/w533_and_h300_bestv2/yzH5zvuEzzsHLZnn0jwYoPf0CMT.jpg",
         title: "Chico: Artista Brasileiro",
         count: 2,
         score: 4.8
