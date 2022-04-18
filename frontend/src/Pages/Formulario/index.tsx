@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./styles.css";
 function Form() {
 
@@ -11,7 +12,7 @@ function Form() {
 
     return(
         <div className="musicmovie-form-container">
-            <img className = "musicmovie-card-image" src={movie.image} alt={movie.title} />
+            <img className = "musicmovie-movie-card-image" src={movie.image} alt={movie.title} />
             <div className="musicmovie-card-bottom-container">
                 <h3>{movie.title}</h3>
                 <form className="musicmovie-form">
@@ -30,10 +31,12 @@ function Form() {
                         </select>
                     </div>
                     <div className="musicmovie-form-btn-container">
-                        <button className="btn btn-primary musicmovie-btn">Salvar</button>
+                        <button type="submit" className="btn btn-primary musicmovie-btn">Salvar</button>
                     </div>
                 </form>
+                <Link to="/">
                 <button className="btn btn-primary musicmovie-btn mt-3">Cancelar</button>
+                </Link>
             </div>
         </div>
     );
