@@ -1,12 +1,12 @@
-import "./styles.css"
+import "./styles.css";
 function Form() {
 
     const movie = {
         id: 1, 
-        image: "https://www.themoviedb.org/t/p/w220_and_h330_face/dmmnl7Nqe3ITQMFBAJF0fYyNILq.jpg",
-        title: "Relatos Brasileiros: Alberto Cavalcanti",
+        image: "https://www.themoviedb.org/t/p/w533_and_h300_bestv2/riS7PNEVDjnCCc7V79B1kD2Qvdu.jpg",
+        title: "Chico: Artista Brasileiro",
         count: 2,
-        score: 3.8
+        score: 4.8
     };
 
     return(
@@ -19,7 +19,7 @@ function Form() {
                         <label htmlFor = "email">Digite o seu email: </label>
                         <input type="email" className = "form-control" id = "email" />
                     </div>
-                    <div className = "form-group musicmovie-fotm-group">
+                    <div className = "form-group musicmovie-form-group">
                         <label htmlFor="score">Informe a sua avaliação</label>
                         <select className="form-control" id="score" name="score">
                             <option>1</option>
