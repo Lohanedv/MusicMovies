@@ -4,6 +4,11 @@
     justify-content: center;
     align-items: center;
 }
+.musicmovie-pagination-container {
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
 .musicmovie-pagination-box {
     width: 180px;
     display: flex;
